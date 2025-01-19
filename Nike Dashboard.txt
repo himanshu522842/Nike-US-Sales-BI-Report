@@ -1,0 +1,20 @@
+NIKE DASHBOARD -----------------------------------------------
+
+
+Month , year , Day Column Measures
+
+---------------------------------------------------------------
+
+
+day = FORMAT(Calender[Date],"ddd")
+
+day_no = DAY(Calender[Date])
+
+month = FORMAT(Calender[Date],"mmm")
+
+month_no = MONTH(Calender[Date])
+
+year = YEAR(Calender[Date])
+
+
+----------------------------------------------------------------
